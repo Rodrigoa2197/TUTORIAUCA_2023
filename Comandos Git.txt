@@ -1,0 +1,4 @@
+git add .  // Esta linea de comando permite indicarle a git que debe añadir la siguiente informacion al repositorio
+git commit -m " " // Este comando indica que es lo que se va a subir 
+git pull // Este comando extrae la ultima informacion ingresada en el repositorio 
+git push // Este comando sube la informacion al repositorio
