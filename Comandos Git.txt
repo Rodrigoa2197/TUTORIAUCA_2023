@@ -9,3 +9,4 @@ git branch "aqui va el nombre de la rama a crear" //Crea una nueva rama con el n
 git checkout  "ponen el nombre de la rama a trabajar" //Nos movemos a la rama "con el nombre establecido"
 git branch -D "aqui va el nombre de la rama a eliminar" //Elimina la rama "la que deseamos eliminar"
 git merge "nombre de la rama para hacer merge con la main" //rama a la cual master absorve
+git pull //jala lo ultimo de informacion que esta en la pagina
