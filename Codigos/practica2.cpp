@@ -96,10 +96,10 @@ int main(){
 }*/
 
 /* Determina el mayor de los tres numeros*/
-//#include<iostream>
-//using namespace std;
+#include<iostream>
+using namespace std;
 
-/*int main(){
+int main(){
 	//FORMA 1
 	int numero, mayor;
 
@@ -119,8 +119,15 @@ int main(){
 		mayor = numero;
 	}
 
+	for(int i=1; i<=mayor; i++){
+		for (int j = 0; j < i; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+	
 	cout << "El mayor de los 3 numeros es: " << mayor <<endl;
-}*/
+}
 	//FORMA 2
 /*	int n1, n2, n3;
 
@@ -145,7 +152,7 @@ int main(){
 }*/
 
 /*Determina la cantidad de salario aumentado al empleado*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 int main(){
@@ -171,5 +178,5 @@ int main(){
 	}
 
 	return 0;
-}
+}*/
 
